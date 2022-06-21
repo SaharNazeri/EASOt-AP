@@ -1,8 +1,10 @@
 # EASOt-AP
 EASOt-AP: An open-source MATLAB code package to Estimate the Earthquake Source Properties: Seismic Moment, Rupture Radius and Stress-drop from Time Evaluation of P-wave Displacement Amplitude
-Sahar Nazeri a, *, Aldo Zollo a
-a Department of Physics E. Pancini, University of Naples Federico II, Naples, Italy
-* Corresponding Author (sahar.nazeri@unina.it)
+
+Corresponding Author (sahar.nazeri@unina.it)
+Department of Physics E. Pancini, University of Naples Federico II, Naples, Italy
+
+
 We developed a Matlab package, to rapidly obtain the apparent EArthquake SOurce time function using the Average of near-source P-wave content of the observations (EASOt-AP) and estimate the earthquake source parameters, such as the seismic moment, the rupture radius, and the average static stress drop. The algorithm implemented in this package is based on a rapid and straightforward methodology that is recently developed by Zollo et al. (2021). To this purpose, EASOt-AP retrieves and models the time evolution of the average P-wave displacement in the logarithm scale named as LPDT curve. In this paper, the performance of the EASOt-AP has been shown by evaluating the strong motion data recorded in the near-source range of small magnitude events (2≤Mw≤3) that occurred in the Irpinia region, southern Italy. This Tool is designed for an easy use, and all steps of data processing are performed completely within the numerical environment of MATLAB.  
 Description of the software, Algorithm, and Implementation, How to run and set the parameters.
 The EASOt-AP package is designed using Matlab (R2021a) supported on both operating Systems of Windows and Linux/Ubuntu, thus it is recommended to run it using the same version or later releases of Matlab. The design philosophy of the package divides it into 3 main parts of input (folder “INPUT”), analysis box (folder “CODES”) and output (folder “OUTPUT”). 
