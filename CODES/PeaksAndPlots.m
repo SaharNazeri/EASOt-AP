@@ -116,7 +116,7 @@ for l=3:length(g)
             
             [bhV,ahV] = butter(nPolV,[cor1V, cor2V]/(1/(2*tau)),'bandpass');
             if(strcmp(Vfilter,'Yes'))==1 
-                vel=filtfilt(bhV,ahV,vel);  
+                vel=filter(bhV,ahV,vel);  
             end
 %             [bh,ah] = butter(nPol,[cor1, cor2]/(1/(2*tau)),'bandpass');
             [bh,ah] = butter(nPol,cor1/(1/(2*tau)),'high');
@@ -124,7 +124,7 @@ for l=3:length(g)
             diss=detrend(diss,'constant');
             diss=detrend(diss,'linear');                        
             ...................................
-            dissh=filtfilt(bh,ah,diss);   
+            dissh=filter(bh,ah,diss);   
             %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             %Noise correction
             accN=acc0(time0>=(-0.2) & time0<=(-0.1));
