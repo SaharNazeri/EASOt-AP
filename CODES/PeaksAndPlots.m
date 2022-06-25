@@ -630,7 +630,7 @@ for l=3:length(g)
     end
     
     CostF1_M=((Final(:,4)-(10^(PL.MainAmp(nuM,4)))).^2)./Final(:,4)...
-     +((Final(:,3)-PL.MainTime(nuM,4)).^2)./Final(:,3);
+     +((Final(:,3)-PL.MainTime(nuM,3)).^2)./Final(:,3);
     indCostF1_M=find(CostF1_M==min(CostF1_M));
     QCorI_M(nuM,:)=Initial(indCostF1_M(1),:);
     QCorF_M(nuM,:)=Final(indCostF1_M(1),:);
