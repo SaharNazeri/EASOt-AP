@@ -37,7 +37,8 @@ To run the package, follow the below structure:
 1.	create a main folder with the name of the package as “EASOt-AP”.
 2.	Create two subfolders as “.../EASOt-AP/CODES”, and “.../EASOt-AP/INPUT”.
 3.	Download all materials and copy pate to the relevant folders.
-4.	Open the main file in the directory of CODES named as “SaharLPXT_Main.m”. 
-5.	Change the current path of Matlab to the path of the package on the pc as: “…/../EASOt-AP”.
-6.	Run the code.
-7.	Check the result if the folder of “../EASOt-AP/OUTPUT”.
+4. To run the package in Windows or Linux/Ubuntu, first, the user should consider and rename the main file of “SaharLPDT_MainW.m” or “SaharLPDT_MainL.m” respectively to ““SaharLPDT_Main.m”.
+5.	Open the main file in the directory of CODES named as “SaharLPDT_Main.m”. 
+6.	Change the current path of Matlab to the path of the package on the pc as: “…/../EASOt-AP”.
+7.	Run the code.
+8.	Check the result if the folder of “../EASOt-AP/OUTPUT”.
