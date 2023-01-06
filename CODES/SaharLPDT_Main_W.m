@@ -119,7 +119,7 @@ if (strcmp(QFilter,'on')==1)
     scatter(logM0c,AppQ.Mode.logM0_LPDT,30,[0.7 0.7 0.7],'fill','MarkerEdgeColor','k','MarkerFaceAlpha',0.7);
     subplot 222; 
     hold on
-    scatter(AppQ.Mode.logM0_LPDT,log10(0.5*AppQ.Mode.Duration_s),30,[0.7 0.7 0.7],'fill','MarkerEdgeColor','k','MarkerFaceAlpha',0.7);
+    scatter(AppQ.Mode.logM0_LPDT,log10(0.5.*AppQ.Mode.Duration_s),30,[0.7 0.7 0.7],'fill','MarkerEdgeColor','k','MarkerFaceAlpha',0.7);
     subplot 223; 
     hold on;
     scatter(AppQ.Mode.logM0_LPDT,log10(AppQ.Mode.Radius_Km.*1000),30,[0.7 0.7 0.7],'fill','MarkerEdgeColor','k','MarkerFaceAlpha',0.7);
@@ -215,7 +215,7 @@ if (strcmp(QFilter,'on')==1)
     scatter(logM0c,AppQ.Curvature.logM0_LPDT,30,[0.7 0.7 0.7],'fill','MarkerEdgeColor','k','MarkerFaceAlpha',0.7);
     subplot 222; 
     hold on
-    scatter(AppQ.Curvature.logM0_LPDT,log10(0.5*AppQ.Curvature.Duration_s),30,[0.7 0.7 0.7],'fill','MarkerEdgeColor','k','MarkerFaceAlpha',0.7);
+    scatter(AppQ.Curvature.logM0_LPDT,log10(0.5.*AppQ.Curvature.Duration_s),30,[0.7 0.7 0.7],'fill','MarkerEdgeColor','k','MarkerFaceAlpha',0.7);
     subplot 223; 
     hold on;
     scatter(AppQ.Curvature.logM0_LPDT,log10(AppQ.Curvature.Radius_Km.*1000),30,[0.7 0.7 0.7],'fill','MarkerEdgeColor','k','MarkerFaceAlpha',0.7);
